@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Montserrat", system-ui;
+}
+
+.container {
+  display: flex;
+}
+
+.child {
+  width: 50%;
+  text-align: center;
+}
+
+.child button {
+  border: none;
+  background-color: slateblue;
+  margin: 25px;
+
+  font-family: inherit;
+  font-size: 24px;
+
+  border-radius: 5px;
+
+  color: white;
+}
+
+.child input {
+  font-family: inherit;
+  font-size: 24px;
+}
